@@ -60,20 +60,6 @@
   });
 </script>
 
-<script type="text/javascript">
-  console.log('working here');
-  var exampleCallback = function () {
-    console.log('order complete');
-  };
-
-  window.passageWidgets.createCheckoutWidget({
-    modal: true,
-    triggerElementId: "example-widget-trigger-4",
-    elementId: "example-widget",
-    onOrderComplete: exampleCallback,
-    iframeSrc: 'https://app.hauntpay.com/events/darkside-haunted-house-2025',
-  });
-</script>
 
 <div class="margin-top"><button href="google.com" id="example-widget-trigger" type="button" class="btn btn-large btn-primary-grad">Buy Tickets</button></div>
 <a href= >
@@ -81,9 +67,6 @@
 </a>
 <a href=>
   <div role="button" id="example-widget-trigger-3" class="btn btn-large btn-primary-grad">Venue Link</div>
-</a>
-<a href=>
-  <div role="button" id="example-widget-trigger-4" class="btn btn-large btn-primary-grad">Hauntpay Link</div>
 </a>
 
 <iframe src="https://p3.ngrok.io/events/1715?iframe=true" width="100%" height="700"></iframe>
